@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct frend {
+struct Friend {
     var title: String
     var avatar: UIImage?
     var photos:[UIImage?]

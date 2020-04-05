@@ -8,37 +8,26 @@
 
 import UIKit
 
-
-
-
 class FrendsViewController: UITableViewController {
-
-
-
-//    let frend1 =
-//    let frend2 =
     
-    
-    var frends: [frend] = [
-    frend(title: "Иван", avatar: UIImage(named: "iconVK"), photos: [
-        UIImage(named: "iconVK"),
-    ]),
-    
-    frend(title: "Петр", avatar: UIImage(named: "iconVK"), photos: [
-        UIImage(named: "iconVK"),
-        UIImage(named: "iconVK"),
-    ]),
-    frend(title: "Евгений", avatar: UIImage(named: "iconVK"), photos: [
-        UIImage(named: "iconVK"),
-        UIImage(named: "iconVK"),
-        UIImage(named: "iconVK"),
-    ]),
+    var frends: [Friend] = [
+        Friend(title: "Иван", avatar: UIImage(named: "iconVK"), photos: [
+            UIImage(named: "iconVK"),
+        ]),
+        
+        Friend(title: "Петр", avatar: UIImage(named: "iconVK"), photos: [
+            UIImage(named: "iconVK"),
+            UIImage(named: "iconVK"),
+        ]),
+        Friend(title: "Евгений", avatar: UIImage(named: "iconVK"), photos: [
+            UIImage(named: "iconVK"),
+            UIImage(named: "iconVK"),
+            UIImage(named: "iconVK")
+        ])
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        frends.append(frend1)
-//        frends.append(frend2)
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
