@@ -14,7 +14,6 @@ class FrendFotoViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //print(frend.title)
     }
 
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -33,6 +32,10 @@ class FrendFotoViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FrendFotoViewCell", for: indexPath) as! FrendFotoViewCell
         let photo = frend.photos[indexPath.row]
         cell.photo.image = photo
+        cell.buttonLike.setImage(UIImage(named: "heart_1"), for: .normal)
+        cell.buttonLike.setImage(UIImage(named: "heart_2"), for: .selected)
+        let numberOfLikes: Int = 0;
+        cell.lableLike.text = String(numberOfLikes)
         return cell
     }
 

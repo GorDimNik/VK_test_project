@@ -22,6 +22,8 @@
 		2CA0BE812435D97300F4517F /* SearchGroupsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0BE802435D97300F4517F /* SearchGroupsViewCell.swift */; };
 		2CA0BE852435DA1300F4517F /* FrendFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0BE842435DA1300F4517F /* FrendFotoViewController.swift */; };
 		2CA0BE872435DA3500F4517F /* FrendFotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0BE862435DA3500F4517F /* FrendFotoViewCell.swift */; };
+		2CCC1CFA243B51F1005C8D4E /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC1CF9243B51F1005C8D4E /* AvatarView.swift */; };
+		2CCC1CFC243B5508005C8D4E /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC1CFB243B5508005C8D4E /* LikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		2CA0BE802435D97300F4517F /* SearchGroupsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGroupsViewCell.swift; sourceTree = "<group>"; };
 		2CA0BE842435DA1300F4517F /* FrendFotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendFotoViewController.swift; sourceTree = "<group>"; };
 		2CA0BE862435DA3500F4517F /* FrendFotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendFotoViewCell.swift; sourceTree = "<group>"; };
+		2CCC1CF9243B51F1005C8D4E /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		2CCC1CFB243B5508005C8D4E /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				2C1BC7CD2436ECFC0064F93F /* User.swift */,
 				2C1BC7CF2436ED130064F93F /* Group.swift */,
+				2CCC1CF9243B51F1005C8D4E /* AvatarView.swift */,
+				2CCC1CFB243B5508005C8D4E /* LikeView.swift */,
 			);
 			path = " Model";
 			sourceTree = "<group>";
@@ -209,8 +215,10 @@
 				2C47308C242C6643009DA001 /* AppDelegate.swift in Sources */,
 				2CA0BE752435AE8800F4517F /* GroupsViewCell.swift in Sources */,
 				2C1BC7D02436ED130064F93F /* Group.swift in Sources */,
+				2CCC1CFA243B51F1005C8D4E /* AvatarView.swift in Sources */,
 				2CA0BE732435AE5500F4517F /* GroupsViewController.swift in Sources */,
 				2CA0BE872435DA3500F4517F /* FrendFotoViewCell.swift in Sources */,
+				2CCC1CFC243B5508005C8D4E /* LikeView.swift in Sources */,
 				2CA0BE7C2435D89D00F4517F /* FrendsViewCell.swift in Sources */,
 				2CA0BE852435DA1300F4517F /* FrendFotoViewController.swift in Sources */,
 				2CA0BE7F2435D95D00F4517F /* SearchGroupsViewController.swift in Sources */,

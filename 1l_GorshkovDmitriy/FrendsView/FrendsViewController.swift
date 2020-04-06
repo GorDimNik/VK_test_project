@@ -40,8 +40,8 @@ class FrendsViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FrendsViewCell", for: indexPath) as! FrendsViewCell
-        cell.frendName.text = frends[indexPath.row].title
-        cell.frendAvatar.image = frends[indexPath.row].avatar
+        cell.friendName.text = frends[indexPath.row].title
+        cell.friendAvatarImageView.image = frends[indexPath.row].avatar
         return cell
     }
     
@@ -54,6 +54,8 @@ class FrendsViewController: UITableViewController {
             
         }
     }
+    
+    
     
     
     

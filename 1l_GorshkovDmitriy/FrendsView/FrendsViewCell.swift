@@ -9,7 +9,10 @@
 import UIKit
 
 class FrendsViewCell: UITableViewCell {
-    
-    @IBOutlet weak var frendName: UILabel!
-    @IBOutlet weak var frendAvatar: UIImageView!
+    @IBOutlet weak var friendName: UILabel!
+    @IBOutlet weak var friendAvatarImageView: UIImageView!
+    @IBOutlet weak var friendAvatarView: UIView!
 }
+
+
+
