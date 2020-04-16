@@ -24,6 +24,8 @@
 		2CA0BE872435DA3500F4517F /* FrendFotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0BE862435DA3500F4517F /* FrendFotoViewCell.swift */; };
 		2CCC1CFA243B51F1005C8D4E /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC1CF9243B51F1005C8D4E /* AvatarView.swift */; };
 		2CCC1CFC243B5508005C8D4E /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC1CFB243B5508005C8D4E /* LikeView.swift */; };
+		2CF0942C2448710E004BE670 /* NewsViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0942B2448710E004BE670 /* NewsViewViewController.swift */; };
+		2CF0942E2448712D004BE670 /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0942D2448712D004BE670 /* NewsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		2CA0BE862435DA3500F4517F /* FrendFotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendFotoViewCell.swift; sourceTree = "<group>"; };
 		2CCC1CF9243B51F1005C8D4E /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		2CCC1CFB243B5508005C8D4E /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
+		2CF0942B2448710E004BE670 /* NewsViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewViewController.swift; sourceTree = "<group>"; };
+		2CF0942D2448712D004BE670 /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				2CA0BE832435D9AD00F4517F /* FrendFotoView */,
 				2CA0BE712435ADFC00F4517F /* GroupsView */,
 				2CA0BE7D2435D90600F4517F /* SearchGroupsView */,
+				2CF0942A244870AB004BE670 /* NewsView */,
 				2C47308F242C6643009DA001 /* ViewController.swift */,
 				2C47308B242C6643009DA001 /* AppDelegate.swift */,
 				2C473091242C6643009DA001 /* Main.storyboard */,
@@ -138,6 +143,15 @@
 				2CA0BE862435DA3500F4517F /* FrendFotoViewCell.swift */,
 			);
 			path = FrendFotoView;
+			sourceTree = "<group>";
+		};
+		2CF0942A244870AB004BE670 /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				2CF0942B2448710E004BE670 /* NewsViewViewController.swift */,
+				2CF0942D2448712D004BE670 /* NewsViewCell.swift */,
+			);
+			path = NewsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +230,7 @@
 				2CA0BE752435AE8800F4517F /* GroupsViewCell.swift in Sources */,
 				2C1BC7D02436ED130064F93F /* Group.swift in Sources */,
 				2CCC1CFA243B51F1005C8D4E /* AvatarView.swift in Sources */,
+				2CF0942E2448712D004BE670 /* NewsViewCell.swift in Sources */,
 				2CA0BE732435AE5500F4517F /* GroupsViewController.swift in Sources */,
 				2CA0BE872435DA3500F4517F /* FrendFotoViewCell.swift in Sources */,
 				2CCC1CFC243B5508005C8D4E /* LikeView.swift in Sources */,
@@ -224,6 +239,7 @@
 				2CA0BE7F2435D95D00F4517F /* SearchGroupsViewController.swift in Sources */,
 				2CA0BE812435D97300F4517F /* SearchGroupsViewCell.swift in Sources */,
 				2CA0BE7A2435D87A00F4517F /* FrendsViewController.swift in Sources */,
+				2CF0942C2448710E004BE670 /* NewsViewViewController.swift in Sources */,
 				2C1BC7CE2436ECFC0064F93F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ class FrendFotoViewCell: UICollectionViewCell {
     @IBOutlet weak var ViewLike: LikeView!
     
     @IBAction func actionLikeButton(_ sender: Any) {
-        if (buttonLike.isSelected == false){
+        if !buttonLike.isSelected {
             buttonLike.isSelected = true
             let t:Int? = Int(lableLike.text!)
             lableLike.text = String(t! + 1)

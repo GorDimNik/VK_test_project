@@ -10,7 +10,7 @@ import UIKit
 
 class FrendFotoViewController: UICollectionViewController {
 
-    var frend: Friend!
+    var friend: Friend!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +25,12 @@ class FrendFotoViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         //print (frend.photos.count)
-        return frend.photos.count
+        return friend.photos.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FrendFotoViewCell", for: indexPath) as! FrendFotoViewCell
-        let photo = frend.photos[indexPath.row]
+        let photo = friend.photos[indexPath.row]
         cell.photo.image = photo
         cell.buttonLike.setImage(UIImage(named: "heart_1"), for: .normal)
         cell.buttonLike.setImage(UIImage(named: "heart_2"), for: .selected)

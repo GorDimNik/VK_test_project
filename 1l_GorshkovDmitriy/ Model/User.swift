@@ -11,5 +11,10 @@ import UIKit
 struct Friend {
     var title: String
     var avatar: UIImage?
-    var photos:[UIImage?]
+    var photos: [UIImage?]
+}
+
+struct SectionFriend {
+    var sectionName: String
+    var frendStruct: [Friend]
 }
